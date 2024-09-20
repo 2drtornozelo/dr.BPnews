@@ -1,0 +1,66 @@
+body{
+    color:black;
+    background:pink;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px rgb(255, 0, 157);
+    padding: 20px;
+    font-size: 30px;
+    color: hotpink;
+}
+
+.chamada
+{
+    background-color: rgb(255,150,197);
+    padding-bottom:80px;
+    padding-top:80px;
+    display:flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+h1{
+font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.categoria {
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 50px ;
+font-family: "Montserrat", sans-serif;
+}
+
+.categoria-videos img {
+opacity: 0.5;
+}
+
+.categoria-videos img:hover {
+ opacity: 1.0;
+ border: 1px solid pink
+}
+
+.categoria h2 {
+    color:hotpink;
+}
